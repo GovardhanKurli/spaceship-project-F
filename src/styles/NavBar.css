@@ -50,19 +50,24 @@
 .dropdown {
   position: absolute;
   /* border-radius: 20%; */
-  background-color: white;
+  background-color: #525e65;
   border: 1px solid #ccc; 
   display: flex;
   flex-direction: column;
   z-index: 1;
+  border-radius: 5% 5% 10% 10%;
 }
 
 .dropdown a {
   border-radius: 20%;
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 10px;
+  padding: 5px;
   text-decoration: none;
   color: black; 
+  font-size: medium;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #f2eeee;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .dropdown a:hover {
