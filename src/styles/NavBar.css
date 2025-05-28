@@ -59,11 +59,10 @@
 }
 
 .dropdown a {
-  border-radius: 20%;
+  /* border-radius: 20%; */
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 5px;
   text-decoration: none;
-  color: black; 
   font-size: medium;
   transition: background-color 0.3s ease, color 0.3s ease;
   color: #f2eeee;
@@ -71,5 +70,5 @@
 }
 
 .dropdown a:hover {
-  background-color: #f0f0f0; 
+  background-color: #6f818b; 
 }

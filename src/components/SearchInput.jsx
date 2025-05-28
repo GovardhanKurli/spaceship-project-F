@@ -76,7 +76,7 @@ export default function SearchInput() {
       </div>
       <div className="search-container">
         <div className="search-input">
-          <span className="search-text">Search for Food and Drinks…</span>
+          <span className="search-text">Search for Food and Drinks… *</span>
           <input
     className={`domain-input ${!inputValue && showError ? 'input-error' : ''}`}
     type="text"
