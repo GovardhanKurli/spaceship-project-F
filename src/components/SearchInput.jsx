@@ -117,19 +117,13 @@ export default function SearchInput() {
         <div className="search-results">
           {apiData.length > 0 ? (
   apiData.map((item, index) => {
-    // if (item.index < 0) { // Skip empty items
+   
       return (
         <div key={index}>
           <a href={item.link}>{item.name}</a>
         </div>
       );
-    // } else {
-    //   return (
-    //     <div key={index}>
-    //       <p>No data found</p>
-    //     </div>
-    //   );
-    // }
+    
   })
 ) : (
   <p></p>
