@@ -28,7 +28,23 @@ const api = {
   NonVeg: [
     { name: 'Chicken', link: '/nonveg/chicken' },
     { name: 'Fish', link: '/nonveg/fish' }
-  ]
+  ],
+  NonVeg2: [
+    { name: 'Chicken', link: '/nonveg/chicken' },
+    { name: 'Fish', link: '/nonveg/fish' }
+  ],
+  Veg22: [
+    { name: 'Chicken', link: '/nonveg/chicken' },
+    { name: 'Fish', link: '/nonveg/fish' }
+  ],
+  Veg23: [
+    { name: 'Chicken', link: '/nonveg/chicken' },
+    { name: 'Fish', link: '/nonveg/fish' }
+  ],
+  Veg24: [
+    { name: 'Chicken', link: '/nonveg/chicken' },
+    { name: 'Fish', link: '/nonveg/fish' }
+  ],
 };
 
 export default function SearchInput() {
