@@ -45,6 +45,14 @@ const api = {
     { name: 'Chicken', link: '/nonveg/chicken' },
     { name: 'Fish', link: '/nonveg/fish' }
   ],
+  Veg25: [
+    { name: 'Chicken', link: '/nonveg/chicken' },
+    { name: 'Fish', link: '/nonveg/fish' }
+  ],
+  Veg26: [
+    { name: 'Chicken', link: '/nonveg/chicken' },
+    { name: 'Fish', link: '/nonveg/fish' }
+  ],
 };
 
 export default function SearchInput() {
